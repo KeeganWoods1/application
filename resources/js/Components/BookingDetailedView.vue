@@ -567,6 +567,7 @@
           <div class="flex flex-col space-y-4 w-full">
             <div class="flex space-x-2 w-full">
               <RichTextEditor
+                id="comment-textbox"
                 class="w-full"
                 :editable="true"
                 :incomingText="''"
